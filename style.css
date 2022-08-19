@@ -200,6 +200,11 @@ li {
     margin-left: -40px;
   }
 
+  .connecthead {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin-top: -70px;
+  }
   .socials {
     margin-right: 15px;
     color: #505f79;
