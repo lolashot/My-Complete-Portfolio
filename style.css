@@ -16,6 +16,7 @@ body {
   padding: 5px;
   margin-right: 40px;
   margin-top: -20px;
+  margin-bottom: 60px;
   }
 
 .headlineTitle {
@@ -156,12 +157,12 @@ li {
   }
 
   button {
-    height: 40px;
-    width: 100px;
-        cursor: pointer;
-        background-color: #fff;
-        border: none;
-        color: #396DF2;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  color: #396DF2;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -175,4 +176,23 @@ margin-bottom: 40px;
       
   }
 
+  h3 {
+    font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7f8cff;
+    
+  }
+
+  .connect {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -40px;
+  }
+
+  .socials {
+    margin-right: 15px;
+    color: #505f79;
+  }
   
