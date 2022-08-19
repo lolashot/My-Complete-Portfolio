@@ -4,6 +4,15 @@ body {
     max-width: 375px;
     background: #fff;
   }
+
+  .grid
+{  display: grid;
+   grid-template-rows: repeat(4, 4fr);
+   gap: 50px ;
+   align-items: center;
+   /* height:  */
+   /* max-width: ; */
+}
   
 .card {
   width: 311px;
@@ -92,7 +101,7 @@ color: #344563;
     display: flex;
     justify-content: flex-start;
     margin-left: -40px; 
-    margin-top: -20px;
+    margin-top: -70px;
 }
 
 .lang1 {
@@ -172,7 +181,6 @@ li {
         margin: 4px 2px;
       border-radius: 8px;
       border: 2px solid #396DF2;
-margin-bottom: 40px;
       
   }
 
@@ -225,4 +233,124 @@ line-height: 24px;
 color: #000000;
 
 }
-  
+
+.bgCard {
+ width: 375px;
+height: 779px;
+background: #6070FF;
+position: relative;
+}
+
+.contact-shapes {
+    width: 100%;
+    position: absolute;
+    height: 700px;
+
+}
+
+.center {
+
+}
+
+.contactTitle {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+padding-top: 80px;
+}
+
+.contactText {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #EBEBFF;
+margin-left: -3px;
+
+}
+
+.card2 {
+background-color: #fff;
+height: 48px;
+width: 300px;
+border-radius:8px ;
+margin-bottom: 15px;
+display: flex;
+align-items: center;
+justify-content: start;
+padding-left: 15px;
+
+}
+
+.card2Text {
+    height: 18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+color: #172B4D;
+}
+
+.card3 {
+    background-color: #fff;
+    height: 101px ;
+    width: 300px ;
+    margin-bottom:15px;
+    border-radius: 8px;
+    display: flex;
+align-items: center;
+justify-content: start;
+padding-left: 15px
+}
+
+.card3Text {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #B3BAC5;
+display: flex;
+align-items: center;
+justify-content: start;
+padding-left: 15px;
+color: #B3BAC5;
+
+}
+
+.card4 {
+    background-color: #fff;
+    height: 24px;
+    width:100px ;
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+    display: flex;
+align-items: center;
+justify-content: start;
+padding-left: 15px;
+color: #6070FF;
+}
+
+.card4Text{
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #6070FF;
+;
+}
