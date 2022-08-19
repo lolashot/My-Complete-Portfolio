@@ -195,4 +195,34 @@ margin-bottom: 40px;
     margin-right: 15px;
     color: #505f79;
   }
+
+  .flex1 {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+  }
+
+  .flex {
+    display: flex;
+    width: 303px;
+height: 66.72px;
+background: #F7F7F9;
+border-radius: 8px;
+margin-bottom: 20px;
+  }
+
+  .bg {
+    margin-left: 15px;
+  }
+
+.text {
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+
+}
   
