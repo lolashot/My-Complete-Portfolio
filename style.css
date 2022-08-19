@@ -43,51 +43,53 @@ body {
 .items {
     display: flex;
     justify-content: flex-start;
-    margin-left: -40px; 
+    margin-left: -40px;
+    align-items: center;
+     
+}
+
+.items li {
+    margin: 5px;
      
 }
 
 .item1 {
-  width: 55px;
-  height: 16px;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
 font-size: 13px;
 line-height: 16px;
 color: #344563;
-margin-right: 25px;
 }
 
+.dot {
+    height: 9px;
+    width: 9px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+  }
+
 .item2 {
-    width: 88px;
-    height: 16px;
     font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
     color: #7A869A;
-    margin-right: 25px;
-
 }
 
 .item3 {
- width: 29px;
-height: 16px;
 font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 13px;
 line-height: 16px;
 color: #7A869A;
-margin-right: 25px;
 
 }
 
 .headlineText {
-  width: 295px;
-  height: 76px;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
 font-weight: 400;
@@ -104,7 +106,7 @@ color: #344563;
     margin-top: -70px;
 }
 
-.lang1 {
+/* .lang1 {
     width: 40px;
 height: 16px;
 font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -121,6 +123,33 @@ background: #C1C7D0;
 display: flex;
 align-items: center;
 justify-content: center;
+} */
+
+.lang1 {
+    /* width: 40px;
+height: 16px;
+font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.03em;
+
+margin-right: 25px;
+border-radius: 8px;
+background: #C1C7D0;
+
+display: flex;
+align-items: center;
+justify-content: center; */
+/* height: 9px;
+    width: 9px; */
+    padding: 7px;
+    background-color: #EBEBFF;
+    border-radius: 20%;
+    color: #6070FF;
+    margin: 8px;
+    /* color: ; */
 }
 
 .lang2 {
