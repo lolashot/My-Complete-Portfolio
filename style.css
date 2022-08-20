@@ -5,6 +5,89 @@ body {
   background: #fff;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  background: #fff;
+}
+
+.headerBrand {
+  text-decoration: none;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.icon {
+  color: #6070ff;
+}
+
+.imgdiv {
+  position: relative;
+  margin: 15px;
+  width: 80%;
+  height: auto;
+}
+
+.shapes {
+  position: absolute;
+  width: 100%;
+}
+
+.title1 {
+  max-width: 90%;
+  margin-top: 25px;
+  padding: 5px;
+  margin-right: 40px;
+}
+
+.headlineTitle1 {
+  width: 90%;
+  margin-top: 70px;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.headlineText1 {
+  width: 90%;
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connectTitle {
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  margin-top: -10px;
+}
+
+.connectt {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -40px;
+  margin-bottom: 60px;
+}
+
+.socialls {
+  margin-right: 15px;
+  color: #505f79;
+}
+
+
 .grid {
   display: grid;
   grid-template-rows: repeat(4, 4fr);
@@ -22,7 +105,7 @@ body {
 
 .title {
   max-width: 90%;
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 60px;
 }
 
@@ -174,7 +257,9 @@ h3 {
   font-size: 16px;
   color: #7f8cff;
 }
-
+.letusconnect{
+  margin: 10px;
+}
 .connect {
   display: flex;
   justify-content: flex-start;
@@ -194,6 +279,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   width: 280px;
+  align-items: center;
 }
 
 .flex {
@@ -208,11 +294,11 @@ h3 {
 .bg {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
+  height: 90%;
 }
 
 .text {
-  height: 24px;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
