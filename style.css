@@ -83,8 +83,10 @@ body {
 }
 
 .socialls {
-  margin-right: 15px;
-  color: #505f79;
+    padding-right: 20px;
+    color: #505f79;
+    height: 20px;
+    width: 17.985200881958008px;
 }
 
 .grid {
@@ -94,30 +96,45 @@ body {
   align-items: center;
 }
 
+main {
+  padding: 24px;
+}
+
 .card {
-  margin: 3.1%;
+  /* margin: 3.1%; */
   border: 0.1px solid #d6d6d6;
   border-radius: 8px;
-  padding: 5px;
+  padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
 .title {
-  max-width: 90%;
-  padding: 12px;
+  max-width: 90%;  
+  padding-top: 0;
+  padding-bottom: 12px;
   margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .headlineTitle {
-  width: 295px;
-  height: 36px;
+  /* width: 295px;
+  height: 36px; */
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin-bottom: 10px;
+  margin-bottom: 10px;  
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .items {
@@ -258,7 +275,7 @@ h3 {
 }
 
 .letusconnect {
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .connect {
@@ -268,12 +285,14 @@ h3 {
 }
 
 .connecthead {
-  margin-top: -70px;
+  margin-top: -50px;
 }
 
 .socials {
-  margin-right: 15px;
+  padding: 10px;
   color: #505f79;
+  height: 20px;
+  width: 17.985200881958008px;
 }
 
 .flex1 {
@@ -290,13 +309,6 @@ h3 {
   background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 20px;
-}
-
-.bg {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  height: 90%;
 }
 
 .text {
