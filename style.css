@@ -253,10 +253,6 @@ h3 {
   color: #7f8cff;
 }
 
-.letusconnect {
-  /* margin: 10px; */
-}
-
 .connect {
   display: flex;
   justify-content: flex-start;
@@ -299,13 +295,6 @@ h3 {
   color: #000;
 }
 
-.contact-parent {
-  max-width: 375px;
-  height: 779px;
-  background: #6070ff;
-  position: relative;
-}
-
 .bgCard {
   max-width: 100%;
   height: 779px;
@@ -313,6 +302,7 @@ h3 {
   position: relative;
   padding: 24px;
   border-radius: 50px 0 0 0;
+  margin-top: 100px;
 }
 
 .center {
@@ -360,16 +350,6 @@ h3 {
   outline: none;
 }
 
-.card2Text {
-  height: 18px;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  color: #172b4d;
-}
-
 .card3 {
   background-color: #fff;
   height: 101px;
@@ -381,24 +361,22 @@ h3 {
   outline: none;
 }
 
-.card3Text {
+::placeholder {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
   display: flex;
-  align-items: center;
-  justify-content: start;
-  padding-left: 15px;
-  color: #b3bac5;
+  align-items: center
 }
 
-  .last {
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 20px;
-  padding-left: 20px;
+.last {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: row;
   cursor: pointer;
   background-color: #fff;
   color: #6070ff;
@@ -408,10 +386,14 @@ h3 {
   margin-top: 23px;
   margin-bottom: 40px;
   border-radius: 8px;
-  border: 2px solid #396df2;
   align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
-
 
 .lowestdiv {
   display: flex;
