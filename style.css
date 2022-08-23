@@ -296,7 +296,8 @@ h3 {
 }
 
 .bgCard {
-  max-width: 100%;
+  margin-left: -20px;
+  width: 330px;
   height: 779px;
   background: #6070ff;
   position: relative;
@@ -308,11 +309,41 @@ h3 {
 .center {
   text-align: center;
 }
-/* .contact-shapes {
-  width: 100%;
+
+.rectangle4 {
+  width: 74.7px;
+  height: 17.21px;
   position: absolute;
-  height: 700px;
-} */
+  left: 287px;
+  top: 35px;
+  transform: rotate(-23.18deg);
+  background: #7F8CFF;
+}
+
+.ellipse3 {
+  position: absolute;
+  width: 90px;
+  height: 25px;
+  left: 500px;
+  top: 40px;
+  background: #fff;
+}
+
+.ellipse12 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 153px;
+  border-radius: 50px;
+  top: 55px;
+  background: #7F8CFF;
+}
+
+.contactShapes {
+  position: absolute;
+  width: 94%;
+  height: 680px;
+}
 
 .contactTitle {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -321,7 +352,7 @@ h3 {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
-  padding-top: 80px;
+  padding-top: 60px;
   letter-spacing: 0em;
   margin-bottom: 12px;
 }
@@ -332,7 +363,6 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  /* text-align: center; */
   color: #ebebff;
   margin-left: -3px;
 }
@@ -368,26 +398,28 @@ h3 {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
-  display: flex;
-  align-items: center
+}
+
+input[type="textarea"]::placeholder {
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
 }
 
 .last {
-  padding-left: 16px;
-  padding-right: 16px;
-  display: flex;
-  flex-direction: row;
+  border: none;
+  padding: 16px;
   cursor: pointer;
   background-color: #fff;
   color: #6070ff;
-  text-decoration: none;
-  display: inline-block;
   font-size: 14px;
   margin-top: 23px;
   margin-bottom: 40px;
   border-radius: 8px;
-  align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -398,11 +430,12 @@ h3 {
 .lowestdiv {
   display: flex;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .lowestdiv .content {
-  height: 10px;
+  height: 8px;
   width: 50%;
+  border-radius: 8px;
   background-color: black;
 }

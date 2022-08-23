@@ -259,22 +259,26 @@
                         </div>
                     <hr>
                     </div>
-                    <section class="bgCard">
-                        <!-- <img src="assets/shapes.png" class="contact-shapes" alt=""> -->
+                    
+        <section class="bgCard">
+                        <img src="assets/shapes/contactShapes.png" class="contactShapes" alt="">
+                        
                         <div class="center">
                         <h3 class="contactTitle">Contact me</h3>
                         <p class="contactText">if you have an application you are interested in developing,
                          a feature that you need built or a project that needs coding.i'd love to help with it
                         </p>
                         </div>
-                        <input class="card2" placeholder="Alex Usifo" type="text" name="" id="">
-                        <input class="card2" placeholder="ololadeshot@gmail.com" type="email" name="" id="">
+                        <form action="" >
+                        <input class="card2" required placeholder="Alex Usifo" maxlength="30" type="text" name="" id="">
+                        <input class="card2" required placeholder="ololadeshot@gmail.com" type="email" name="" id="">
 
-                        <textarea id="msg" class="card3" placeholder="write your message here..." name="user_message"></textarea>
-                        <a class="last"><p>Get In Touch</p></a>
+                        <textarea id="msg" class="card3" maxlength="500" placeholder="write your message here..." type="textarea" name="user_message"></textarea>
+                        <button class="last" type="submit">Get In Touch</button>
                         <div class="lowestdiv">
                             <div class="content"></div>
                         </div>
+                    </form>
                     </section>
                 </section>
 </body>
