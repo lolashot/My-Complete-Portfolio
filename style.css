@@ -306,6 +306,13 @@ h3 {
   margin-top: 100px;
 }
 
+.contactShapes {
+position: absolute;
+width: 225px;
+height: 656.17px;
+left: 153px;
+}
+
 .center {
   text-align: center;
 }
@@ -324,9 +331,13 @@ h3 {
   position: absolute;
   width: 90px;
   height: 89px;
-  left: 328px;
   top: 40px;
+  left: 328px;  
   background: #fff;
+  border-radius: 60%;
+  box-shadow: 10px 15px 0 0 red;
+  transform: rotate(83.18deg);
+
 } 
 
 .ellipse12 {
@@ -410,18 +421,18 @@ h3 {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  color: #172b4d;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
 }
 
-input[type="textarea"] ::placeholder {
+input {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #b3bac5;
+  color: #172B4D;
 }
 
 .last {
@@ -440,6 +451,13 @@ input[type="textarea"] ::placeholder {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.last:hover {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  color: #fff;
+  background-color: #6070ff;
 }
 
 .lowestdiv {
