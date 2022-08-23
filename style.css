@@ -314,7 +314,7 @@ h3 {
   width: 74.7px;
   height: 17.21px;
   position: absolute;
-  left: 287px;
+  left: 305px;
   top: 35px;
   transform: rotate(-23.18deg);
   background: #7F8CFF;
@@ -323,11 +323,11 @@ h3 {
 .ellipse3 {
   position: absolute;
   width: 90px;
-  height: 25px;
-  left: 500px;
+  height: 89px;
+  left: 328px;
   top: 40px;
   background: #fff;
-}
+} 
 
 .ellipse12 {
   position: absolute;
@@ -339,10 +339,25 @@ h3 {
   background: #7F8CFF;
 }
 
-.contactShapes {
+.rectangle7 {
   position: absolute;
-  width: 94%;
-  height: 680px;
+  width: 76.17px;
+  height: 13.63px;
+  left: 258.8px;
+  top: 640px;
+  background: #7F8CFF;
+  transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+}
+
+.ellipse5 {
+  position: absolute;
+  width: 31.11px;
+  height: 31.11px;
+  border-radius: 50px;
+  left: 276.74px;
+  top: 650px;
+  background: #fff;
+  transform: rotate(48.94deg);
 }
 
 .contactTitle {
@@ -400,13 +415,13 @@ h3 {
   color: #172b4d;
 }
 
-input[type="textarea"]::placeholder {
+input[type="textarea"] ::placeholder {
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  color: #172b4d;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
 }
 
 .last {
