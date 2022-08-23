@@ -324,7 +324,7 @@ h3 {
   left: 305px;
   top: 35px;
   transform: rotate(-23.18deg);
-  background: #7f8Cff;
+  background: #7f8cff;
 }
 
 .ellipse3 {
@@ -337,7 +337,7 @@ h3 {
   border-radius: 60%;
   box-shadow: 10px 15px 0 0 red;
   transform: rotate(83.18deg);
-} 
+}
 
 .ellipse12 {
   position: absolute;
@@ -378,7 +378,7 @@ h3 {
   line-height: 52px;
   color: #fff;
   padding-top: 60px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   margin-bottom: 12px;
 }
 
