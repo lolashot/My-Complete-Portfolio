@@ -188,14 +188,15 @@ main {
   color: #344563;
 }
 
-.lang {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: -40px;
-  margin-top: -70px;
-}
+/* .lang { */
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* margin-left: -40px; */
+  /* margin-top: -70px; */
+/* } */
 
 .lang1 {
+  float: left;
   padding: 7px;
   background-color: #ebebff;
   border-radius: 20%;
@@ -204,6 +205,7 @@ main {
 }
 
 .lang2 {
+  float: left;
   width: 32px;
   height: 16px;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -222,6 +224,7 @@ main {
 }
 
 .lang3 {
+  float: right;
   width: 80px;
   height: 16px;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
