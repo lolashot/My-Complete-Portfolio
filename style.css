@@ -297,7 +297,7 @@ h3 {
 
 .bgCard {
   background-image: url(assets/shapes/contactShapes.png);
-  background-size:cover;
+  background-size: cover;
   margin-left: -16px;
   padding-top: 20px;
   width: 357px;
