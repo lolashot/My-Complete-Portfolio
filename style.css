@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 body {
   max-width: 375px;
@@ -14,7 +14,7 @@ body {
 
 .headerBrand {
   text-decoration: none;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -48,7 +48,7 @@ body {
 .headlineTitle1 {
   width: 90%;
   margin-top: 70px;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -58,7 +58,7 @@ body {
 
 .headlineText1 {
   width: 90%;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -67,7 +67,7 @@ body {
 }
 
 .connectTitle {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -123,7 +123,7 @@ main {
 }
 
 .headlineTitle {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -146,7 +146,7 @@ main {
 }
 
 .item1 {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -162,7 +162,7 @@ main {
 }
 
 .item2 {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -171,7 +171,7 @@ main {
 }
 
 .item3 {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -180,7 +180,7 @@ main {
 }
 
 .headlineText {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -206,7 +206,7 @@ main {
 .lang2 {
   width: 32px;
   height: 16px;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -224,7 +224,7 @@ main {
 .lang3 {
   width: 80px;
   height: 16px;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -246,7 +246,7 @@ li {
 }
 
 h3 {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -287,7 +287,7 @@ h3 {
 }
 
 .text {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -372,7 +372,7 @@ h3 {
 }
 
 .contactTitle {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -384,7 +384,7 @@ h3 {
 }
 
 .contactText {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -421,7 +421,7 @@ form {
 }
 
 ::placeholder {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -430,7 +430,7 @@ form {
 }
 
 input {
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -450,7 +450,7 @@ input {
   margin-top: 23px;
   /* margin-bottom: 20px; */
   border-radius: 8px;
-  font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -463,6 +463,24 @@ input {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   color: #fff;
   background-color: #6070ff;
+}
+
+.last:active {
+  background: #2230d2;
+  border-radius: 8px;
+}
+
+.last:enabled {
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.last:disabled {
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #5e6c84;
 }
 
 .lowestdiv {
