@@ -241,20 +241,20 @@ main {
   align-items: center;
   justify-content: center;
   padding-left: 8px;
-  }
+}
 
-  li {
-    text-decoration: none;
-    list-style-type: none;
-  }
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
 
-  h3 {
-    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #7f8cff;
-  }
+h3 {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
 
 .connect {
   display: flex;
@@ -262,210 +262,210 @@ main {
   margin-left: -40px;
 }
 
-  .connecthead {
-    margin-top: -50px;
-  }
+.connecthead {
+  margin-top: -50px;
+}
 
-  .socials {
-    padding: 10px;
-    color: #505f79;
-    height: 20px;
-    width: 17.985200881958008px;
-  }
+.socials {
+  padding: 10px;
+  color: #505f79;
+  height: 20px;
+  width: 17.985200881958008px;
+}
 
-  .flex1 {
-    display: flex;
-    justify-content: space-between;
-    width: 280px;
-    align-items: center;
-  }
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  align-items: center;
+}
 
-  .flex {
-    display: flex;
-    width: 303px;
-    height: 66.72px;
-    background: #f7f7f9;
-    border-radius: 8px;
-    margin-bottom: 20px;
+.flex {
+  display: flex;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
   .text {
-    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000;
-  }
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
 
-  .bgCard {
-    background-image: url(assets/shapes/contactShapes.png);
-    background-size: 100%;
-    margin-left: -16px;
-    padding-top: 20px;
-    width: 357px;
-    height: 780px;
-    background-color: #6070ff;
-    position: relative;
-    border-radius: 50px 0 0 0;
-    margin-top: 100px;
-  }
+.bgCard {
+  background-image: url(assets/shapes/contactShapes.png);
+  background-size: 100%;
+  margin-left: -16px;
+  padding-top: 20px;
+  width: 357px;
+  height: 780px;
+  background-color: #6070ff;
+  position: relative;
+  border-radius: 50px 0 0 0;
+  margin-top: 100px;
+}
 
-  .contactShapes {
-    width: 225px;
-    height: 656.17px;
-    left: 153px;
-  }
+.contactShapes {
+  width: 225px;
+  height: 656.17px;
+  left: 153px;
+}
 
-  .center {
-    text-align: center;
-  }
+.center {
+  text-align: center;
+}
 
-  .rectangle4 {
-    width: 74.7px;
-    height: 17.21px;
-    position: absolute;
-    left: 305px;
-    top: 35px;
-    transform: rotate(-23.18deg);
-    background: #7f8cff;
-  }
+.rectangle4 {
+  width: 74.7px;
+  height: 17.21px;
+  position: absolute;
+  left: 305px;
+  top: 35px;
+  transform: rotate(-23.18deg);
+  background: #7f8cff;
+}
 
-  .ellipse3 {
-    position: absolute;
-    width: 90px;
-    height: 89px;
-    top: 40px;
-    left: 328px;
-    background: #fff;
-    border-radius: 60%;
-    box-shadow: 10px 15px 0 0 red;
-    transform: rotate(83.18deg);
-  }
+.ellipse3 {
+  position: absolute;
+  width: 90px;
+  height: 89px;
+  top: 40px;
+  left: 328px;
+  background: #fff;
+  border-radius: 60%;
+  box-shadow: 10px 15px 0 0 red;
+  transform: rotate(83.18deg);
+}
 
-  .ellipse12 {
-    position: absolute;
-    width: 21px;
-    height: 21px;
-    left: 153px;
-    border-radius: 50px;
-    top: 55px;
-    background: #7f8cff;
-  }
+.ellipse12 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 153px;
+  border-radius: 50px;
+  top: 55px;
+  background: #7f8cff;
+}
 
-  .rectangle7 {
-    position: absolute;
-    width: 76.17px;
-    height: 13.63px;
-    left: 258.8px;
-    top: 640px;
-    background: #7f8cff;
-    transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
-  }
+.rectangle7 {
+  position: absolute;
+  width: 76.17px;
+  height: 13.63px;
+  left: 258.8px;
+  top: 640px;
+  background: #7f8cff;
+  transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+}
 
-  .ellipse5 {
-    position: absolute;
-    width: 31.11px;
-    height: 31.11px;
-    border-radius: 50px;
-    left: 276.74px;
-    top: 650px;
-    background: #fff;
-    transform: rotate(48.94deg);
-  }
+.ellipse5 {
+  position: absolute;
+  width: 31.11px;
+  height: 31.11px;
+  border-radius: 50px;
+  left: 276.74px;
+  top: 650px;
+  background: #fff;
+  transform: rotate(48.94deg);
+}
 
-  .contactTitle {
-    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #fff;
-    padding-top: 90px;
-    letter-spacing: 0;
-    margin-bottom: 12px;
-  }
+.contactTitle {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding-top: 90px;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
 
-  .contactText {
-    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ebebff;
-  }
+.contactText {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ebebff;
+}
 
-  form {
-    margin-left: -50px;
-  }
+form {
+  margin-left: -50px;
+}
 
-  .card2 {
-    background-color: #fff;
-    height: 30px;
-    width: 270px;
-    border-radius: 12px;
-    margin-bottom: 15px;
-    border: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    outline: none;
-  }
+.card2 {
+  background-color: #fff;
+  height: 30px;
+  width: 270px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  outline: none;
+}
 
-  .card3 {
-    background-color: #fff;
-    height: 101px;
-    width: 270px;
-    border-radius: 8px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    outline: none;
-  }
+.card3 {
+  background-color: #fff;
+  height: 101px;
+  width: 270px;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  outline: none;
+}
 
-  ::placeholder {
-    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #b3bac5;
-  }
+::placeholder {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
 
-  input {
-    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #172b4d;
-  }
+input {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #172b4d;
+}
 
-  .last {
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    border: none;
-    padding: 16px;
-    cursor: pointer;
-    background-color: #fff;
-    color: #6070ff;
-    margin-top: 23px;
-    border-radius: 8px;
-    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-  }
+.last {
+  display: flex;
+  flex-direction: row;
+  margin-left: 55px;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #6070ff;
+  margin-top: 23px;
+  border-radius: 8px;
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
 
-  .last:hover {
-    transform: scale(0.98);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-    color: #fff;
-    background-color: #6070ff;
-  }
+.last:hover {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  color: #fff;
+  background-color: #6070ff;
+}
 
 @media (min-width: 768px) {
   .header, .imgdiv, .card {
@@ -491,7 +491,7 @@ main {
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     line-height: 20px;
   }
@@ -507,7 +507,7 @@ main {
   }
 
   .navigation li a {
-    font-family: 'Poppins';
+    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -551,6 +551,7 @@ main {
     line-height: 28px;
     color: #344563;
   }
+
   .banner .content h3 {
     font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
@@ -583,7 +584,7 @@ main {
     padding-top: 24px;
     background: #fff;
     padding-bottom: 24px;
-    border: 1px solid #dfe1e6; 
+    border: 1px solid #dfe1e6;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
