@@ -704,7 +704,7 @@ input {
 
 .flex2 {
   display: flex;
-  justify-content: start;
+    justify-content: start;
   width: 450px;
   align-items: center;
   }
@@ -727,13 +727,13 @@ input {
   align-items: center;
 }
 
-@keyframes slideInFromTop {
-  0% {
-    transform: translateY(-100%);
-  }
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
 
-  100% {
-        transform: translateX(0);
+    100% {
+      transform: translateX(0);
+    }
   }
-}
 }
