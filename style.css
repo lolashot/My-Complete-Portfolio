@@ -10,6 +10,7 @@ body {
   width: 60%;
   background: #fff;
 }
+
 .nav, .banner, .gridd, .carrd {
   display: none;
 }
@@ -467,10 +468,6 @@ input {
 }
 
 @media (min-width: 768px) {
-  body {
-    
-}
-
 .header, .imgdiv, .card {
   display: none;
 }
