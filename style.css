@@ -528,6 +528,7 @@ input {
   align-items: center;
   background: url(./assets/Headerbgdesktop.png);
   background-size: cover;
+  animation: slideInFromTop 1s ease-in;
 } 
 
 .banner .content {
@@ -628,6 +629,13 @@ input {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: #396df2;
+  font-weight: 700;
+  color: #fff;
 }
 
 .butt {
@@ -646,6 +654,12 @@ input {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.butt:hover {
+  background-color: #fff;
+  font-weight: 700;
+  color: #396df2;
 }
 
 .contact {
@@ -685,6 +699,12 @@ input {
     letter-spacing: 0.03em;
   }
 
+  .lastt:hover,
+  .lastt:focus {
+  background-color: #6070ff;
+  color: #fff;
+}
+
   .flex2 {
     display: flex;
     justify-content: start;
@@ -710,34 +730,17 @@ input {
     align-items: center;
   }
 
-  #delay {
-    font-size: 14px;
-    transition-property: font-size;
-    transition-duration: 4s;
-    transition-delay: 2s;
-  }
-  
-  #delay:hover {
-    font-size: 36px;
-  }
+  @keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
 
-  .box {
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #0000FF;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    100% {
+        transform: translateX(0);
+    }
 }
 
-.box:hover {
-    background-color: #FFCCCC;
-    width: 200px;
-    height: 200px;
-    transform: rotate(180deg);
 }
-  }
 
 
 
