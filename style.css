@@ -473,7 +473,7 @@ input {
 }
 
 .nav {
-  position: absolute;
+    position: absolute;
   top: 1px;
   left: 0;
   width: 1124px;
