@@ -12,8 +12,11 @@ body {
 }
 
 .nav,
-.banner, 
+
+.banner,
+
 .gridd,
+
 .carrd {
   display: none;
 }
@@ -472,7 +475,9 @@ input {
 
 @media (min-width: 768px) {
   .header,
+
   .imgdiv, 
+  
   .card {
     display: none;
   }
