@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 body {
-  max-width: 375px;
   background: #fff;
 }
 
@@ -10,6 +9,9 @@ body {
   justify-content: space-between;
   width: 60%;
   background: #fff;
+}
+.nav, .banner .cardd {
+  display: none;
 }
 
 .headerBrand {
@@ -297,7 +299,7 @@ h3 {
 
 .bgCard {
   background-image: url(assets/shapes/contactShapes.png);
-  background-size: cover;
+  background-size: 100%;
   margin-left: -16px;
   padding-top: 20px;
   width: 357px;
@@ -462,4 +464,110 @@ input {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   color: #fff;
   background-color: #6070ff;
+}
+
+@media (min-width: 768px) {
+
+  .header, .imgdiv, .card {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 1124px;
+    padding-top: 25px;
+    padding-left: 155px;
+    padding-right: 154px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+  }
+
+  .nav .logo {
+    color: #6070FF;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 20px;
+}
+
+  .nav .navigation {
+    position: relative;
+    display: flex;
+  }
+
+  .navigation li {
+    margin-left: 30px;
+    list-style: none;
+  }
+
+  .navigation li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-decoration: none;
+}
+
+  .banner {
+    margin-top: 100px;
+    position: relative;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/Headerbgdesktop.png);
+    background-size: cover;
+  } 
+
+  .banner .content {
+    width: 90%;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .banner .content h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091E42;
+  }
+.banner .content p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+ }
+.banner .content h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+ .banner .connect {
+  /* width: 90%; */
+  /* padding-left: 20px; */
+}
+
+.connectTitle {
+  margin-left: 103px;
+}
+
+.connectt {
+  margin-left: 60px;
 }
