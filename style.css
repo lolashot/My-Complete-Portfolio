@@ -4,7 +4,7 @@ body {
   background: #fff;
 }
 
-.header1, .navigation {
+.header1, .navigation, .imgdivv {
   display: none;
 }
 
@@ -468,7 +468,7 @@ input {
 }
 
 @media (min-width: 768px) {
-  .header, .iconn {
+  .header, .iconn, .imgdiv {
     display: none;
   }
   
