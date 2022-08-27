@@ -550,7 +550,7 @@ input {
     color: #344563;
     text-decoration: none;
   }
- 
+
   .hamburger {
     display: none;
   }
@@ -612,7 +612,7 @@ input {
   .card-child {
     display: flex;
   }
-  
+
   .bg {
     display: none;
   }
