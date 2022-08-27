@@ -500,4 +500,8 @@ input {
     color: #344563;
   } 
 
+  .imgdivv {
+    background-image: url(assets/);
+  }
+
 }
