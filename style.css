@@ -9,8 +9,13 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 80%;
   background: #fff;
+  margin: 10px;
+}
+
+.header-top {
+  display: none;
 }
 
 .headerBrand {
@@ -328,6 +333,10 @@ h3 {
   margin-top: 100px;
 }
 
+.desktop-bgCard {
+  display: none;
+}
+
 .last-btn {
   display: flex;
   justify-content: center;
@@ -509,7 +518,11 @@ input {
     padding-right: 130px;
   }
 
-  header {
+  .header {
+    display: none;
+  }
+
+  .header-top {
     width: 1220px;
     padding: 40px 50px;
     display: flex;
@@ -517,17 +530,17 @@ input {
     align-items: center;
   }
 
-  header .navigation {
+  .header-top .navigation {
     position: relative;
     display: flex;
   }
 
-  header .navigation li {
+  .header-top .navigation li {
     list-style: none;
     margin-left: 30px;
   }
 
-  header .navigation li a {
+  .header-top .navigation li a {
     font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -669,7 +682,7 @@ input {
     font-size: small;
     padding: 2px;
   }
-  
+
   .lang1 {
     margin-left: 0;
   }
