@@ -9,18 +9,18 @@
     <title> completePortfolio</title>
 </head>
 <body>
-    <header>        
-        <nav >
-            <ul class="header">
-                <li>
-                    <a href="#" class="headerBrand">My Logo</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-solid fa-bars icon"></i></a>
-                </li>
+    <div class="parent">  
+        <header class="header">
+            <a href="#" class="headerBrand">My Logo</a>
+            <a href="#"><i class="fa-solid fa-bars icon hamburger"></i></a>
+            <ul class="navigation">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </header>
+    <div class="hero-bg"></div>
+    <div class="hero">
     <section class="imgdiv">
         <img src="assets/header-shapes-mobile@2x.svg" class="shapes" alt="">
         <div class="title1"><h1 class="headlineTitle1">I'm Lola Glad to See You!</h1>
@@ -47,12 +47,15 @@
             </li>
         </ul>
     </section>
+</div>
     <main class="grid">
-    
     <section class="card">
-        <div>        
+        <div class="card-child">
+        <div class="card-child-img">        
             <img src="assets/Snapshoot.png" class="bg" alt="">
+            <img src="assets/desktop-images/SnapshootPortfolio.png" class="bg-desktop" alt="">
         </div>
+        <div class="card-child-content">
         <div class="title"><h1 class="headlineTitle">Tonic</h1>
         <ul class="items">
             <li class="theli">
@@ -71,7 +74,7 @@
                 <a href="#" class="item3">2022</a>
             </li>
         </ul>
-        <p class="headlineText">A daily selection of privately personalised reads: no accounts or sign-ups required. </p>
+        <div class="title"><p class="headlineText">A daily selection of privately personalised reads: no accounts or sign-ups required. </p></div>
     </div>
         <ul class="lang">
             <li>
@@ -84,13 +87,21 @@
                 <div class="lang1"><a href="#" class="">javascript</a></div>
             </li>
         </ul>
-        <a class="last"><p>Get My Resume</p></a>
+        <div class="btn-parent">
+            <a class="last"><p>Get My Resume</p></a>
+            <a class="desktop-btn"><p>See Project</p></a>
+        </div>
+        </div>
+    </div>
     </section>
-    
+
+<div class="show-mobile-card">
     <section  class="card">
-        <div>        
+        <div class="card-child">
+        <div class="card-child-img">        
             <img src="assets/snapshoot1.png" class="bg" alt="">
         </div>
+        <div class="card-child-content">
         <div class="title"><h1 class="headlineTitle">Multi-Post Stories.</h1>
         <ul class="items">
             <li class="theli">
@@ -122,12 +133,179 @@
                 <div class="lang1"><a href="">javascript</a></div>
             </li>
         </ul>
-        <a class="last"><p>Get My Resume</p></a>
+        <div class="btn-parent">
+            <a class="last"><p>Get My Resume</p></a>
+            <a class="desktop-btn"><p>See Project</p></a>
+        </div>
+    </div>
+</div>
     </section>
+</div>
+
+<div class="show-desktop-card">
+
     <section  class="card">
-        <div>        
+        <div class="card-child">
+            <div class="card-child-content">
+                <div class="title"><h1 class="headlineTitle">Multi-Post Stories.</h1>
+                <ul class="items">
+                    <li class="theli">
+                        <a class="item1">CANOPY</a>
+                    </li>
+                    <li class="dot theli">
+                        
+                    </li>
+                    <li class="theli">
+                        <a class="item1">Front End Dev</a>
+                    </li>
+                    <li class="dot theli">
+                        
+                    </li>
+                    <li class="theli">
+                        <a class="item1">2022</a>
+                    </li>
+                </ul>
+                <p class="headlineText">A daily selection of privately personalised reads: no accounts or sign-ups required. </p>
+            </div>
+                <ul class="lang">
+                    <li>
+                       <div class="lang1"><a href="">html</a></div>
+                    </li>
+                    <li>
+                        <div class="lang1" ><a href="#">Ruby on Rails</a></div>
+                     </li>
+                    <li>
+                       <div class="lang1" ><a href="#">css</a></div>
+                    </li>
+                    <li>
+                        <div class="lang1"><a href="">javascript</a></div>
+                    </li>
+                </ul>
+                <div class="btn-parent">
+                    <a class="last"><p>Get My Resume</p></a>
+                    <a class="desktop-btn"><p>See Project</p></a>
+                </div>
+            </div>
+        <div class="card-child-img">        
+            <img src="assets/desktop-images/SnapshootPortfolio1.png" class="bg bg-desktop" alt="">
+        </div>
+        
+</div>
+    </section>
+
+</div>
+
+<div class="show-desktop-card">
+
+<section class="card">
+    <div class="card-child">
+    <div class="card-child-img">        
+        <img src="assets/desktop-images/SnapshootPortfolio2.png" class="bg-desktop" alt="">
+    </div>
+    <div class="card-child-content">
+    <div class="title"><h1 class="headlineTitle">Facebook 360</h1>
+    <ul class="items">
+        <li class="theli">
+            <a href="#" class="item1">FACEBOOK</a>
+        </li>
+        <li class=" theli dot">
+            
+        </li>
+        <li class="theli">
+            <a href="#" class="item2">Full Stack Dev</a>
+        </li>
+        <li class="dot theli">
+            
+        </li>
+        <li class="theli">
+            <a href="#" class="item3">2022</a>
+        </li>
+    </ul>
+    <div class="title"><p class="headlineText">Exploring the future of media in facebook's first virtual reality app. Aplace to discover and enjoy 360photos and videos and on Gear VR. </p></div>
+</div>
+    <ul class="lang">
+        <li>
+           <div class="lang1"><a href="#">html</a></div>
+        </li>
+        <li>
+           <div class="lang1" ><a href="#">Ruby on Rails</a></div>
+        </li>
+        <li>
+            <div class="lang1" ><a href="#">css</a></div>
+         </li>
+        <li>
+            <div class="lang1"><a href="#" class="">javascript</a></div>
+        </li>
+    </ul>
+    <div class="btn-parent">
+        <a class="last"><p>Get My Resume</p></a>
+        <a class="desktop-btn"><p>See Project</p></a>
+    </div>
+    </div>
+</div>
+</section>
+</div>
+
+<div class="show-desktop-card">
+
+    <section  class="card">
+        <div class="card-child">
+            <div class="card-child-content">
+                <div class="title"><h1 class="headlineTitle">Uber Navigation</h1>
+                <ul class="items">
+                    <li class="theli">
+                        <a class="item1">Uber</a>
+                    </li>
+                    <li class="dot theli">
+                        
+                    </li>
+                    <li class="theli">
+                        <a class="item1">Lead Developer</a>
+                    </li>
+                    <li class="dot theli">
+                        
+                    </li>
+                    <li class="theli">
+                        <a class="item1">2018</a>
+                    </li>
+                </ul>
+                <p class="headlineText">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+            </div>
+                <ul class="lang">
+                    <li>
+                       <div class="lang1"><a href="">html</a></div>
+                    </li>
+                    <li>
+                        <div class="lang1" ><a href="#">Ruby on Rails</a></div>
+                     </li>
+                    <li>
+                       <div class="lang1" ><a href="#">css</a></div>
+                    </li>
+                    <li>
+                        <div class="lang1"><a href="">javascript</a></div>
+                    </li>
+                </ul>
+                <div class="btn-parent">
+                    <a class="last"><p>Get My Resume</p></a>
+                    <a class="desktop-btn"><p>See Project</p></a>
+                </div>
+            </div>
+        <div class="card-child-img">        
+            <img src="assets/desktop-images/SnapshootPortfolio3.png" class="bg bg-desktop" alt="">
+        </div>
+        
+</div>
+    </section>
+
+</div>
+
+<div class="show-mobile-card">
+    <section  class="card">
+        <div class="card-child">
+            <div class="card-child-img">        
             <img src="assets/Snapshoot2.png" class="bg" alt="">
         </div>
+        <div class="card-child-content">
         <div class="title"><h1 class="headlineTitle">Tonic</h1>
         <ul class="items">
             <li class="theli">
@@ -159,13 +337,22 @@
                 <div class="lang1"><a href="">javascript</a></div>
             </li>
         </ul>
-        <a class="last"><p>Get My Resume</p></a>
-    </section>
-    
-    <section  class="card">
-        <div>        
-            <img src="assets/Snapshoot3.png" class="bg" alt="">
+        <div class="btn-parent">
+            <a class="last"><p>Get My Resume</p></a>
+            <a class="desktop-btn"><p>See Project</p></a>
         </div>
+        </div>  
+        </div>
+    </section>
+</div>
+
+<div class="show-mobile-card">
+    <section  class="card">
+        <div class="card-child">
+            <div class="card-child-img"> 
+             <img src="assets/Snapshoot3.png" class="bg" alt="">
+        </div>
+        <div class="card-child-content">
         <div class="title"><h1 class="headlineTitle">Multi-Post Stories</h1>
         <ul class="items">
             <li class="theli">
@@ -197,15 +384,25 @@
             <div class="lang1"><a href="#">javascript</a></div>
         </li>
     </ul>
-    <a class="last"><p>Get My Resume</p></a>
+    <div class="btn-parent">
+        <a class="last"><p>Get My Resume</p></a>
+        <a class="desktop-btn"><p>See Project</p></a>
+    </div>
+    </div>
+    </div>
 </section>
+</div>
     </main>
     <section class="card">
+        <div class="card-child">
+            <div class="card-child-content">
+
     <div class="title"><h1 class="headlineTitle">About Myself</h1>
         <p class="headlineText"> Hello,I'm a Software developer! I can help you build a product, feature 
             or website look through some of my Work and experience! if you like what you see and have a project you need coded, 
             dont hesitate to contact me. </p>
     </div>
+
     <section class="letusconnect">
         <h3 class="connecthead"> LET'S CONNECT </h3>
         <ul class="connect">
@@ -225,41 +422,73 @@
                 <a href="ololadeshot@gmail.com"><img src="assets/Vector.png" class="socials" alt=""></a>
             </li>
         </ul>
-    </section>
         <a class="last"><p>Get My Resume</p></a>
+
+        <!-- <div class="card-child"> -->
+
     </section>
-        <section class="card">
+</div>
+<div class="card-child-content">
+
+        <section class="languages">
             <div>
                 <div class="flex1">
                 <h2 class="text">Languages</h2>
                 <img src="assets/Icons/down.png" class= "bg" alt="">
+                <img src="assets/Icons/down.png" class= "bg-desktop" alt="">
+
                 </div>
                 <section>
+                    <div class="languages-box">
                 <div class="flex">
                     <img src="assets/Ellipse.png" class="bg" alt="">
-                    <h3 class="bg letusconnect">javascript</h3>
+                    <h3 class="letusconnect">javascript</h3>
                 </div>
                 <div class="flex">
                     <img src="assets/Ellipse1.png" class="bg" alt="">
-                    <h3 class="bg letusconnect">HTML</h3>
+                    <h3 class="letusconnect">HTML</h3>
                 </div>
                 <div class="flex">
                     <img src="assets/Ellipse2.png" class="bg" alt="">
-                    <h3 class="bg letusconnect">CSS</h3>
+                    <h3 class="letusconnect">CSS</h3>
                 </div>
+            </div>
+
+            <div class="languages-box-desktop">
+                <div class="flex">
+                    <img src="assets/Ellipse.png" class="bg-desktop languages-img" alt="">
+                    <h3 class="letusconnect">javascript</h3>
+                </div>
+                <div class="flex">
+                    <img src="assets/Ellipse1.png" class="bg-desktop languages-img" alt="">
+                    <h3 class="letusconnect">HTML</h3>
+                </div>
+                <div class="flex">
+                    <img src="assets/Ellipse2.png" class="bg-desktop languages-img" alt="">
+                    <h3 class="letusconnect">CSS</h3>
+                </div>
+            </div>
+
+
                 <div class="flex1">
                     <h2 class="text">Frameworks</h2>
                     <img src="assets/Right.png" class= "bg" alt="">
+                    <img src="assets/Right.png" class= "bg-desktop" alt="">
                     </div>
                 </section>  
                 <hr>
                     <div class="flex1">
                         <h2 class="text">Skills</h2>
                         <img src="assets/Right.png" class= "bg" alt="">
+                        <img src="assets/Right.png" class= "bg-desktop" alt="">
                         </div>
                     <hr>
-                    </div>
-                   
+            </div>
+        </section>
+    </div>
+</div>
+
+      
         <section class="bgCard">
                     <div class="center">
                         <h3 class="contactTitle">Contact me</h3>
@@ -271,14 +500,46 @@
                          method="POST" 
                          >
                         <ul>
-                            <li><input class="card2" required placeholder="Alex Usifo" maxlength="30" type="text" name="name" ></li>
-                            <li><input class="card2" required placeholder="ololadeshot@gmail.com" type="email" name="email" ></li>
-                            <li><textarea id="msg" class="card3" required maxlength="500" placeholder="write your message here..." name="message"></textarea></li>
-                            <li><button class="last" type="submit">Get In Touch</button></li>
+                            <li><input class="card2 form-field" required placeholder="Alex Usifo" maxlength="30" type="text" name="name" ></li>
+                            <li><input class="card2 form-field" required placeholder="ololadeshot@gmail.com" type="email" name="email" ></li>
+                            <li><textarea id="msg form-field" class="card3" required maxlength="500" placeholder="write your message here..." name="message"></textarea></li>
+                            <li><button class="last form-field" type="submit">Get In Touch</button></li>
                         </ul>
                         </form>
                     </div>
-                    </section>
-                    </section>
+        </section>
+
+        <section class="desktop-bgCard">
+            <div class="center">
+                <h3 class="contactTitle">Contact me</h3>
+                <p class="contactText">if you have an application you are interested in developing,
+                 a feature that you need built or a project that needs coding.i'd love to help with it
+                </p>
+                <div class="contact-form">
+                    <div class="contact-form-details">
+                <form
+                 action="https://formspree.io/f/xeqdoedo"
+                 method="POST" 
+                 >
+                <ul>
+                    <li><input class="card2" style="width: 90%" required placeholder="Alex Usifo" maxlength="30" type="text" name="name" ></li>
+                    <li><input class="card2" required placeholder="ololadeshot@gmail.com" type="email" name="email" ></li>
+                    <li><textarea id="msg" class="card3" required maxlength="500" placeholder="write your message here..." name="message"></textarea></li>
+                    <li><button class="last" type="submit">Get In Touch</button></li>
+                    </li>
+                </ul>
+              <div class="last-btn">
+                <div class="btn-parent">
+                    <button class="desktop-btn" type="submit">Get in Touch</button>
+                </div>
+              </div>
+                
+                </form>
+                </div>
+            </div>
+            </div>
+</section>
+    </section>
+    </div>
 </body>
 </html>

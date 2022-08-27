@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
+/* @media (max-width: 768px) { */
 body {
-  max-width: 375px;
+  /* max-width: 375px; */
   background: #fff;
 }
 
@@ -22,8 +23,12 @@ body {
   color: #6070ff;
 }
 
-.icon {
+.hamburger {
   color: #6070ff;
+}
+
+.navigation {
+  display: none;
 }
 
 .imgdiv {
@@ -105,6 +110,15 @@ main {
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+}
+
+.show-mobile-card {
+  display: block;
+}
+
+.show-desktop-card {
+  display: none;
 }
 
 .bg {
@@ -114,11 +128,19 @@ main {
   margin-bottom: 12px;
 }
 
+.bg {
+  display: block;
+}
+
+.bg-desktop {
+  display: none;
+}
+
 .title {
   max-width: 90%;
   padding-top: 0;
-  padding-bottom: 12px;
-  margin-bottom: 60px;
+  /* padding-bottom: 12px; */
+  margin-bottom: 10px;
   margin-top: 0;
 }
 
@@ -192,7 +214,7 @@ main {
   display: flex;
   justify-content: flex-start;
   margin-left: -40px;
-  margin-top: -70px;
+  /* margin-top: -70px; */
 }
 
 .lang1 {
@@ -260,7 +282,7 @@ h3 {
 }
 
 .connecthead {
-  margin-top: -50px;
+  /* margin-top: -50px; */
 }
 
 .socials {
@@ -268,6 +290,10 @@ h3 {
   color: #505f79;
   height: 20px;
   width: 17.985200881958008px;
+}
+
+.languages-box-desktop {
+  display: none;
 }
 
 .flex1 {
@@ -306,6 +332,18 @@ h3 {
   position: relative;
   border-radius: 50px 0 0 0;
   margin-top: 100px;
+}
+
+.last-btn {
+  display: flex;
+  justify-content: center;
+  color: #6070ff;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.last-btn .btn-parent {
+  width: 50%;
 }
 
 .contactShapes {
@@ -462,4 +500,251 @@ input {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   color: #fff;
   background-color: #6070ff;
+}
+
+.desktop-btn {
+  display: none;
+}
+
+/* } */
+@media (min-width: 768px) {
+  .parent {
+    width: 90%;
+    padding-top: 25px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+header {
+  width: 1220px;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navigation {
+  position: relative;
+  display: flex;
+}
+
+
+header .navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+header .navigation li a {
+font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+margin-left: 30px;
+color: #344563;
+text-decoration: none;
+}
+
+
+  .hamburger {
+    display: none;
+  }
+
+  .connect {
+    text-decoration: none;
+  }
+
+  .hero-bg {
+    width: 100%;
+    height: 310px;
+    background-image: url(assets/desktop-images/Headerbg@2x.png);
+    background-size: cover;
+  }
+
+  .hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    animation: slideInFromTop 1s ease-in;
+  }
+
+  .imgdiv {
+    margin: auto;
+  }
+
+  .shapes {
+    display: none;
+  }
+
+  .connectt {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -40px;
+    list-style-type: none;
+  }
+
+  .socialls {
+    padding-right: 20px;
+    color: #505f79;
+    height: 20px;
+    width: 17px;
+  }
+
+  .show-mobile-card {
+    display: none;
+  }
+
+  .show-desktop-card {
+    display: block;
+  }
+  .ist-card {
+    display: block;
+  }
+
+  .card-child {
+    display: flex;
+  }
+  
+  .bg {
+    display: none;
+  }
+
+  .bg-desktop {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-child-img {
+    width: 49%;
+  }
+
+  .card-child-content {
+    width: 49%;
+    margin-left: 40px;
+    height: 95%;
+  }
+  .headlineTitle {
+    line-height: 1.8;
+  }
+
+  .headlineText {
+    line-height: 2.5;
+  }
+  .lang {
+    margin-top: 0;
+  }
+
+  .flex1 .bg-desktop {
+    width: 30px;
+  }
+
+  .flex .bg-desktop {
+    width: 60px;
+  }
+
+  .languages-box {
+    display: none;
+    justify-content: flex-start
+  }
+
+  .languages-box-desktop {
+    display: flex;
+    justify-content: flex-start
+  }
+
+  .languages section .flex {
+    display: block;
+    width: 12%;
+    margin: 10px;
+    height: 95px;
+    padding: 7px;
+  }
+
+  .languages-img {
+    top: 0;
+    left: 0;
+    width: 0.2px;
+    height: auto;
+  }
+
+  .letusconnect {
+    font-size: small;
+    padding: 2px;
+  }
+  
+  .lang1 {
+    margin-left: 0;
+  }
+  .btn-parent {
+    width: 25%;
+  }
+
+  .last {
+    display: none;
+  }
+
+  .desktop-btn {
+    display: block;
+    text-align: center;
+    width: 70%;
+    border: 0.1px solid #6070ff;
+    border-radius: 8px;
+    padding: 13px;
+    color: #6070ff;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 0;
+  }
+
+  .desktop-btn:hover {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    color: #fff;
+    background-color: #6070ff;
+  }
+
+  .bgCard {
+    display: none;
+  }
+
+  .desktop-bgCard {
+    background-image: url(assets/desktop-images/contactformbackgroundshapes@2x.png);
+    width: 100%;
+    background-color: #6070ff;
+    position: relative;
+    border-radius: 50px 0 0 0;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    height: auto;
+  }
+
+  .center {
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-form{
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-field {
+    width: 100%;
+  }
+ 
+@keyframes slideInFromTop {
+  0% {
+      transform: translateY(-100%);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+}
+
+
 }
