@@ -13,7 +13,7 @@ and connect me to employers and clients.
 
 ## Live Demo (if available)
 
-not yet available
+https://lolashot.github.io/My-Complete-Portfolio/
 
 ## Getting Started
 
