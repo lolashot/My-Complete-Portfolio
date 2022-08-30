@@ -19,7 +19,6 @@ https://lolashot.github.io/My-Complete-Portfolio/
 
 Download the code or clone the repo to your local PC.
 
-
 ### Prerequisites
 - text editor
 
@@ -28,7 +27,6 @@ Download the code or clone the repo to your local PC.
 - GitHub: [@lolashot](https://github.com/lolashot)
 - Twitter: [@lola_wealthy](https://twitter.com/@lola_wealthy)
 - LinkedIn: [shotola-ololade-946b95241/](https://www.linkedin.com/in/shotola-ololade-946b95241/)
-
 
 ## Show your support
 
