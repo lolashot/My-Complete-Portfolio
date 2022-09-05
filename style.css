@@ -9,7 +9,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  /* width: 80%; */
   background: #fff;
   margin: 10px;
 }
@@ -27,6 +26,11 @@ body {
   line-height: 20px;
   color: #6070ff;
 }
+
+.navigation {
+  display: none;
+}
+
 
 header .navigation {
   display: none;
@@ -50,6 +54,11 @@ header .navigate.active {
   z-index: 1;
 }
 
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 header .navigate li {
   margin-left: -110px;
   line-height: 80px;
@@ -66,14 +75,13 @@ header .navigate li a {
 
 .hamburger {
   color: #6070ff;
-  background-color: #6070ff;
   position: relative;
   width: 20px;
   height: 19px;
   background: url(./assets/Icons/hamm.png);
-  background-size: 30px ;
+  background-size: 30px;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
   cursor: pointer;
 }
 
@@ -81,11 +89,7 @@ header .navigate li a {
   background: url(./assets/Icons/icon2.png);
   background-size: 25px;
   background-repeat: no-repeat;
-  background-position: center;  
-}
-
-.navigation {
-  display: none;
+  background-position: center;
 }
 
 .imgdiv {
@@ -311,11 +315,6 @@ main {
   align-items: center;
   justify-content: center;
   padding-left: 8px;
-}
-
-li {
-  text-decoration: none;
-  list-style-type: none;
 }
 
 h3 {
