@@ -77,7 +77,7 @@ header .navigate li a {
   position: relative;
   width: 20px;
   height: 19px;
-  background: url(./assets/Icons/hamm.png);
+  background: url(./assets/Icons/hamburgericon.png);
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -85,7 +85,7 @@ header .navigate li a {
 }
 
 .hamburger.active {
-  background: url(./assets/Icons/icon2.png);
+  background: url(./assets/Icons/closeicon.png);
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: center;
