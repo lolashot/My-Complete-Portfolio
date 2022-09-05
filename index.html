@@ -12,16 +12,21 @@
     <div class="parent">  
         <header class="header">
             <a href="#" class="headerBrand">My Logo</a>
-            <a href="#"><i class="fa-solid fa-bars icon hamburger"></i></a>         
-          
+            <div class="hamburger" onclick="toggleMenu();">
+            </div>
+            <ul class="navigate">
+                <li><a href="#" onclick="toggleMenu();">Portfolio</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+            </ul>
         </header>
 
         <header class="header-top">
             <a href="#" class="headerBrand">My Logo</a>
             <ul class="navigation">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" >Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#" >Contact</a></li>
             </ul>
         </header>
         
@@ -400,7 +405,7 @@
 </div>
     </main>
     <section class="card">
-        <div class="card-child">
+        <div class="card-child" id="about">
             <div class="card-child-content">
 
     <div class="title"><h1 class="headlineTitle">About Myself</h1>
@@ -546,5 +551,9 @@
 </section>
     </section>
     </div>
+
+    <script src="./scripts/header.js">
+
+    </script>
 </body>
 </html>
