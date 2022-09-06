@@ -45,10 +45,10 @@ header .navigate.active {
   display: flex;
   flex-direction: column;
   z-index: 100;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  background-color: #6070FF;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #6070ff;
   mix-blend-mode: multiply;
   margin-top: 0;
 }
@@ -96,7 +96,6 @@ header .navigate li a {
   margin-top: 20px;
   z-index: 300;
 }
-
 
 .greyed_out {
   filter: blur(3px);
