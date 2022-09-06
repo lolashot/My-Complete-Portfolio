@@ -40,9 +40,9 @@ header .navigate {
 }
 
 header .navigate.active {
-  width: 100%;
-  height: calc(100% - 30px);
-  position: fixed;
+  width: 375px;
+  height: 100vh;
+  position: absolute;
   top: 30px;
   left: 0;
   display: flex;
@@ -328,10 +328,6 @@ h3 {
   display: flex;
   justify-content: flex-start;
   margin-left: -40px;
-}
-
-.connecthead {
-  /* margin-top: -50px; */
 }
 
 .socials {
