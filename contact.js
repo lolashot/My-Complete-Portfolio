@@ -13,11 +13,8 @@ const x = document.getElementById('desktop-email').value;
   else {
     form.action = "https://formspree.io/f/xeqdoedo";
     form.submit();
-  
   }
-
 }
-
 
 function mobileSubmitForm(event) {
     event.preventDefault();
@@ -36,7 +33,5 @@ const x = document.getElementById('mobile_email').value;
   else {
     form.action = "https://formspree.io/f/xeqdoedo";
     form.submit();
-  
   }
-
 }
