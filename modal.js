@@ -34,8 +34,8 @@ const projects = [
     featuredimage: './project-1.gif',
     linktoliveserver: 'https://reactbootcamp.com',
     linktosource: 'https://reactbootcamp.com',
-  }, 
-];  
+  },
+];
 const closeBtn = document.getElementById('close-btn');
 const modalContainer = document.getElementById('modal-container');
 function assignValue(itemId) {
