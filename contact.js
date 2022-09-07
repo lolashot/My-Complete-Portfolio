@@ -8,8 +8,7 @@ function submitForm(event) {
     text = 'email should be in lowercase';
     document.getElementById('message').innerHTML = text;
     document.getElementById('message').style.color = 'white';
-  }
-  else {
+  } else {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
   }
@@ -24,8 +23,7 @@ function mobileSubmitForm(event) {
     text = 'email should be in lowercase';
     document.getElementById('mobile_message').innerHTML = text;
     document.getElementById('mobile_message').style.color = 'white';
-  }
-  else {
+  } else {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
   }
