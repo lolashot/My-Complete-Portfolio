@@ -11,7 +11,7 @@ const x = document.getElementById('desktop-email').value;
 
   } 
   else {
-    form.action = "https://formspree.io/f/xeqdoedo";
+    form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
   
   }
