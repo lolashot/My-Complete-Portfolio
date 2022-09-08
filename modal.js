@@ -38,7 +38,7 @@ const projects = [
 ];
 const closeBtn = document.getElementById('close-btn');
 const modalContainer = document.getElementById('modal-container');
-function assignValue(itemId) {
+// function assignValue(itemId) {
   const found = projects.find((element) => element.id === itemId);
   document.getElementById('greeting').innerHTML = found.name;
   document.getElementById('say').innerHTML = found.technologies;
