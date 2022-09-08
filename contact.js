@@ -1,15 +1,16 @@
-// const btn = document.getElementById('desktop-submit-btn');
 const form = document.getElementById('form-id');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const x = document.getElementById('desktop-email').value;
+
   let text;
-  if (x.toUpperCase() === x) {
-    text = 'email should be in lowercase';
-    document.getElementById('message').innerHTML = text;
-  } else {
+  if (x.toLowerCase() === x) {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
+  } else {
+    text = 'email should be in lowercase';
+    document.getElementById('message').innerHTML = text;
+    document.getElementById('message').style.color = 'white';
   }
 });
 
@@ -19,11 +20,12 @@ mobileForm.addEventListener('submit', (event) => {
   const form = document.getElementById('mobile_id');
   const x = document.getElementById('mobile_email').value;
   let text;
-  if (x.toUpperCase() === x) {
-    text = 'email should be in lowercase';
-    document.getElementById('mobile_message').innerHTML = text;
-  } else {
+  if (x.toLowerCase() === x) {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
+  } else {
+    text = 'email should be in lowercase';
+    document.getElementById('mobile_message').innerHTML = text;
+    document.getElementById('mobile_message').style.color = 'white';
   }
 });

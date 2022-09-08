@@ -565,11 +565,11 @@ input {
   display: none;
 }
 
-.mess {
+.errormess {
   font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -806,6 +806,12 @@ input {
 
   .form-field {
     width: 100%;
+  }
+
+  #message {
+    color: white;
+    height: 40px;
+    width:  100%;
   }
 
   @keyframes slideInFromTop {

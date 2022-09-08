@@ -32,6 +32,21 @@
                 <li><a href="#" >Contact</a></li>
             </ul>
         </header>
+
+        <div id="modal-container">
+            <div id="modal">
+                <p id="greeting">Here i am!</p>
+                <p id="say"></p>
+                <p id="hey"></p>
+                <p id="hi"></p>
+                <p id="sayy"></p>
+                <p id="sayyy"></p>
+
+
+                <div id="close-btn">&times;</div>
+            </div>
+        </div>
+        
     <div class="hero-bg"></div>
     <div class="hero">
     <section class="imgdiv">
@@ -102,7 +117,7 @@
         </ul>
         <div class="btn-parent">
             <a class="last"><p>See Project</p></a>
-            <a class="desktop-btn"><p>See Project</p></a>
+            <a onclick="assignValue(1)" class="desktop-btn"><p>See Project</p></a>
         </div>
         </div>
     </div>
@@ -147,8 +162,8 @@
             </li>
         </ul>
         <div class="btn-parent">
-            <a class="last" ><p>See Project</p></a>
-            <a class="desktop-btn" ><p>See Project</p></a>
+            <a class="last" onclick="assignValue(1)"><p>See Project</p></a>
+            <a class="desktop-btn" onclick="assignValue(1)"><p>See Project</p></a>
         </div>
     </div>
 </div>
@@ -195,13 +210,14 @@
                     </li>
                 </ul>
                 <div class="btn-parent">
-                    <a class="last" ><p>See Project</p></a>
-                    <a  class="desktop-btn"><p>See Project</p></a>
+                    <a class="last" onclick="assignValue(2)"><p>See Project</p></a>
+                    <a onclick="assignValue(2)" class="desktop-btn"><p>See Project</p></a>
                 </div>
             </div>
         <div class="card-child-img">        
             <img src="assets/desktop-images/SnapshootPortfolio1.png" class="bg bg-desktop" alt="">
         </div>
+        
 </div>
     </section>
 
@@ -250,8 +266,8 @@
         </li>
     </ul>
     <div class="btn-parent">
-        <a class="last" ><p>See Project</p></a>
-        <a class="desktop-btn"><p>See Project</p></a>
+        <a class="last" onclick="assignValue(3)"><p>See Project</p></a>
+        <a class="desktop-btn" onclick="assignValue(3)"><p>See Project</p></a>
     </div>
     </div>
 </div>
@@ -298,8 +314,8 @@
                     </li>
                 </ul>
                 <div class="btn-parent">
-                    <a class="last" ><p>See Project</p></a>
-                    <a class="desktop-btn" ><p>See Project</p></a>
+                    <a class="last" onclick="assignValue(4)"><p>See Project</p></a>
+                    <a class="desktop-btn" onclick="assignValue(4)"><p>See Project</p></a>
                 </div>
             </div>
         <div class="card-child-img">        
@@ -350,8 +366,8 @@
             </li>
         </ul>
         <div class="btn-parent">
-            <a class="last" ><p>See Project</p></a>
-            <a class="desktop-btn"><p>See Project</p></a>
+            <a class="last" onclick="assignValue(2)"><p>See Project</p></a>
+            <a class="desktop-btn" onclick="assignValue(2)"><p>See Project</p></a>
         </div>
         </div>  
         </div>
@@ -398,7 +414,7 @@
     </ul>
     <div class="btn-parent">
         <a class="last"><p>Get My Resume</p></a>
-        <a class="desktop-btn" ><p>See Project</p></a>
+        <a class="desktop-btn" onclick="assignValue(3)"><p>See Project</p></a>
     </div>
     </div>
     </div>
@@ -516,8 +532,8 @@
                             <li><input class="card2 form-field" required placeholder="Alex Usifo" maxlength="30" type="text" name="name" ></li>
                             <li><input id="mobile_email" class="card2 form-field" required placeholder="ololadeshot@gmail.com" type="email" name="email" ></li>
                             <li><textarea class="card3" required maxlength="500" placeholder="write your message here..." name="message"></textarea></li>
+                            <p id="mobile_message" class="errormess"></p>
                             <li><button class="last form-field" type="submit">Get In Touch</button></li>
-                            <p id="mobile_message" class="mess"></p>
                         </ul>
                         </form>
                     </div>
@@ -540,12 +556,11 @@
                     <li><input id="desktop-email" class="card2" required placeholder="ololadeshot@gmail.com" type="email" name="email"></li>
                     <li><textarea id="msg" class="card3" required maxlength="500" placeholder="write your message here..." name="message"></textarea></li>
                     <li><button id="desktop-submit-btn" class="last" type="submit" value="submit" >Get In Touch</button></li>
-                    <p id="message" class="mess"></p>
+                    <p id="message" class="errormess"></p>
                 </ul>
               <div class="last-btn">
                 <div class="btn-parent">
                     <button class="desktop-btn" type="submit" value="submit" >Get in Touch</button>
-                    <p id="message"></p>
                 </div>
               </div>
                 
@@ -556,5 +571,9 @@
 </section>
     </section>
     </div>
+
+    <script src="modal.js"></script>
+    <script src="contact.js"></script>
+    <script src="header.js"></script>
 </body>
 </html>
