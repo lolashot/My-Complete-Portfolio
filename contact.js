@@ -1,6 +1,8 @@
-function submitForm(event) {
+// const btn = document.getElementById('desktop-submit-btn');
+const form = document.getElementById('form-id');
+form.addEventListener('submit', (event) => {
   event.preventDefault();
-  const form = document.getElementById('form-id');
+  // const form = document.getElementById('form-id');
   const x = document.getElementById('desktop-email').value;
 
   let text;
@@ -12,9 +14,10 @@ function submitForm(event) {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
   }
-}
+});
 
-function mobileSubmitForm(event) {
+const mobileForm = document.getElementById('mobile_id');
+mobileForm.addEventListener('submit', (event) => {
   event.preventDefault();
   const form = document.getElementById('mobile_id');
   const x = document.getElementById('mobile_email').value;
@@ -27,4 +30,4 @@ function mobileSubmitForm(event) {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
   }
-}
+});
