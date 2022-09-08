@@ -565,7 +565,14 @@ input {
   display: none;
 }
 
-/* } */
+.mess {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   .parent {
     width: 90%;

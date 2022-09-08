@@ -7,9 +7,6 @@ form.addEventListener('submit', (event) => {
   if (x.toUpperCase() === x) {
     text = 'email should be in lowercase';
     document.getElementById('message').innerHTML = text;
-    document.getElementById('message').style.color = 'white';
-    document.getElementById('message').style.height = '40px';
-    document.getElementById('message').style.width = "100%";
   } else {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
@@ -25,7 +22,6 @@ mobileForm.addEventListener('submit', (event) => {
   if (x.toUpperCase() === x) {
     text = 'email should be in lowercase';
     document.getElementById('mobile_message').innerHTML = text;
-    document.getElementById('mobile_message').style.color = 'white';
   } else {
     form.action = 'https://formspree.io/f/xeqdoedo';
     form.submit();
