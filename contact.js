@@ -2,9 +2,7 @@
 const form = document.getElementById('form-id');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  // const form = document.getElementById('form-id');
   const x = document.getElementById('desktop-email').value;
-
   let text;
   if (x.toUpperCase() === x) {
     text = 'email should be in lowercase';
