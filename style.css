@@ -187,6 +187,10 @@ main {
   display: block;
 }
 
+.shows-mobile-card {
+  display: block;
+}
+
 .show-desktop-card {
   display: none;
 }
@@ -657,6 +661,10 @@ input {
     display: none;
   }
 
+  .shows-mobile-card {
+    display: block;
+  }
+
   .show-desktop-card {
     display: block;
   }
@@ -687,6 +695,27 @@ input {
     width: 49%;
     margin-left: 40px;
     height: 95%;
+  }
+
+  .card-modal-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-modal-child-img {
+    width: 98%;
+  }
+
+  .card-modal-child-content {
+    width: 98%;
+    margin-left: 40px;
+    /* height: 95%; */
+  }
+
+  .bg-modal {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    display: block;
   }
 
   .headlineTitle {

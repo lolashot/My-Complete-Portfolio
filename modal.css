@@ -7,9 +7,9 @@
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex;
+  justify-content: space-between; */
+  /* align-items: center; */
   width: 49%;
   height: 95%;
   animation-name: animatemodal;
