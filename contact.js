@@ -1,6 +1,6 @@
 const form = document.getElementById('form-id');
 form.addEventListener('submit', (event) => {
-  event.preventDefault();
+  
   const x = document.getElementById('desktop-email').value;
 
   let text;
