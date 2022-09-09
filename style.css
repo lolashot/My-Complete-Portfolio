@@ -565,7 +565,14 @@ input {
   display: none;
 }
 
-/* } */
+.errormess {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   .parent {
     width: 90%;
@@ -798,6 +805,12 @@ input {
   }
 
   .form-field {
+    width: 100%;
+  }
+
+  #message {
+    color: white;
+    height: 40px;
     width: 100%;
   }
 
