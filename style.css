@@ -788,20 +788,6 @@ input {
     margin-left: 40px;
   }
 
-  .modal-body {
-    max-width: 95%;
-  }
-
-  #description {
-    width: 75%;
-    margin-top: -70px;
-  }
-
-  .headlineList {
-    width: 24%;
-    flex-wrap: wrap;
-  }
-
   .modal-lang1 {
     margin-top: 750px;
   }
