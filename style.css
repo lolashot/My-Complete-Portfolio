@@ -603,6 +603,35 @@ input {
   max-height: 90%;
 }
 
+.desktop-modal-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1px solid #6070ff;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  font-size: 12px;
+  padding: 10px;
+  width: 50%;
+}
+
+.p {
+  width: 50%;
+}
+
+.modalicon1 {
+  margin-left: 10px;
+  margin-bottom: -40px;
+}
+
+.desktop-modal-btn-icon {
+  padding: 10px;
+  width: 50%;
+}
+
 @media (min-width: 768px) {
   .parent {
     width: 90%;
@@ -749,7 +778,7 @@ input {
   }
 
   .card-modal-child-img {
-    max-width: 90%;
+    max-width: 100%;
     max-height: 1%;
     margin: auto;
   }
@@ -759,35 +788,86 @@ input {
     margin-left: 40px;
   }
 
+  .modal-body {
+    max-width: 95%;
+  }
+
+  #description {
+    width: 75%;
+    margin-top: -70px;
+  }
+
+  .headlineList {
+    width: 24%;
+    flex-wrap: wrap;
+  }
+
+  .modal-lang1 {
+    margin-top: 750px;
+  }
+
   .bg-modal {
     justify-content: center;
     align-items: center;
     margin-bottom: 12px;
     display: block;
-    max-width: 90%;
+    width: 99%;
     max-height: 90%;
   }
 
+  .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    max-width: 95%;
+    max-height: 90%;
+    flex-wrap: wrap;
+  }
+
+  #description {
+    width: 75%;
+    flex-wrap: wrap;
+  }
+
+  .headlineList {
+    width: 24%;
+    flex-wrap: wrap;
+  }
+  
+  .flex-modal-button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
   .desktop-modal-btn {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0.1px solid #6070ff;
     border-radius: 8px;
     color: #6070ff;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
-    margin-top: -8px;
+    font-size: 12px;
+    padding: 10px;
+    width: 50%;
   }
 
-  .flex-modal-button {
-    display: flex;
-    margin-left: -12px;
+  .p {
+    width: 50%;
   }
 
   .modalicon1 {
     margin-left: 10px;
     margin-bottom: -40px;
+  }
+
+  .desktop-modal-btn-icon {
+    padding: 10px;
+    width: 50%;
   }
 
   .headlineTitle {

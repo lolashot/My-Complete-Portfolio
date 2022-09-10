@@ -47,9 +47,24 @@
   margin-top: -8px;
 }
 
-.mobile-btn-parent a {
+.mobile-btn-parent {
+  padding: 20px;
+  width: 50%;
+  margin-right: 0;
+}
+
+/* .mobile-btn-parent a {
   text-decoration: none;
-  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+} */
+
+.desktop-modal-btn-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
 }
 
 @keyframes animatemodal {
@@ -72,7 +87,13 @@
 
   .flex-modal-button {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .desktop-modal-btn {
+    width: 20%;
   }
 
   .mobile-btn-parent {
