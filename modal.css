@@ -7,11 +7,6 @@
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.5rem;
-  /* display: flex;
-  justify-content: space-between; */
-  /* align-items: center; */
-  /* width: 49%; */
-  height: 95%;
   animation-name: animatemodal;
   animation-duration: 0.4s;
   height: 90%;
@@ -79,7 +74,6 @@
     display: flex;
     justify-content: center;
     width: 38%;
-    /* padding: 1px; */
     border: 0.1px solid #6070ff;
     border-radius: 5px;
     color: #6070ff;
