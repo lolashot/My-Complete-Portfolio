@@ -569,6 +569,41 @@ input {
   display: none;
 }
 
+.modal-headlineTitle {
+  font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.modal-close-icon {
+  cursor: pointer;
+  width: 15px;
+  height: 12px;
+  top: 150px;
+}
+
+#shows-mobile-card {
+width: 100%;
+margin: auto;
+margin-left: 25px;
+}
+
+.bg-modal {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  display: block;
+  max-width: 100%;
+  max-height: 90%;
+}
+
+
 /* } */
 @media (min-width: 768px) {
   .parent {
@@ -697,18 +732,20 @@ input {
     height: 95%;
   }
 
+  /* modal styles */
   .card-modal-child {
     display: flex;
     flex-direction: column;
   }
   .card-modal-child-img {
-    width: 98%;
+    max-width: 90%;
+    max-height: 1%;
+    margin: auto;
   }
 
   .card-modal-child-content {
     width: 98%;
     margin-left: 40px;
-    /* height: 95%; */
   }
 
   .bg-modal {
@@ -716,7 +753,32 @@ input {
     align-items: center;
     margin-bottom: 12px;
     display: block;
+    max-width: 90%;
+    max-height: 90%;
   }
+
+  .desktop-modal-btn {
+    display: block;
+    text-align: center;
+    border: 0.1px solid #6070ff;
+    border-radius: 8px;
+    color: #6070ff;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 0;
+    margin: 10px;
+    margin-top: -8px;
+  }
+
+ .flex-modal-button {
+  display: flex;
+  margin-left: -12px;
+ }
+
+ .modalicon1 {
+    margin-left: 10px;
+    margin-bottom: -40px;
+ }
 
   .headlineTitle {
     line-height: 1.8;
