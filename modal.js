@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 1,
+    id: '1',
     name: 'task tracker',
     technologies: 'html',
     technologiess: 'css',
@@ -11,7 +11,7 @@ const projects = [
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
   {
-    id: 2,
+    id: '2',
     name: 'Js Reserve',
     technologies: 'html',
     technologiess: 'css',
@@ -22,8 +22,8 @@ const projects = [
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
   {
-    id: 3,
-    name: 'html Reserve',
+    id: '3',
+    name: 'Piggy Bank Html',
     technologies: 'html',
     technologiess: 'css',
     technologiesss: 'javaScript',
@@ -33,8 +33,8 @@ const projects = [
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
   {
-    id: 4,
-    name: 'css Reserve',
+    id: '4',
+    name: 'Ecommerce',
     technologies: 'html',
     technologiess: 'css',
     technologiesss: 'javaScript',
@@ -43,32 +43,71 @@ const projects = [
     linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
     linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
   },
+  {
+    id: '5',
+    name: 'Food tracker',
+    technologies: 'html',
+    technologiess: 'css',
+    technologiesss: 'javaScript',
+    description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+    featuredimage: './assets/Snapshoot.png',
+    linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
+    linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
+  },
+  {
+    id: '6',
+    name: 'Animal Reserve',
+    technologies: 'html',
+    technologiess: 'css',
+    technologiesss: 'javaScript',
+    description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+    featuredimage: './assets/snapshoot1.png',
+    linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
+    linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
+  },
+  {
+    id: '7',
+    name: 'Music Place Website',
+    technologies: 'html',
+    technologiess: 'css',
+    technologiesss: 'javaScript',
+    description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+    featuredimage: './assets/snapshoot2.png',
+    linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
+    linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
+  },
+  {
+    id: '8',
+    name: 'Face Recognition Project',
+    technologies: 'html',
+    technologiess: 'css',
+    technologiesss: 'javaScript',
+    description: 'rem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+    featuredimage: './assets/snapshoot3.png',
+    linktoliveserver: 'https://lolashot.github.io/My-Complete-Portfolio',
+    linktosource: 'https://github.com/lolashot/My-Complete-Portfolio/',
+  },
 ];
 
 const closeBtn = document.getElementById('close-btn');
 const modalContainer = document.getElementById('modal-container');
-const collection = document.getElementsByClassName('.open-modal');
-collection.addEventListener('click', (event) => {
-  console.log('eventid', event.target.id);
-});
-// collection.addEventListener('click', (event) => {
-//   return console.log('eventid', event.target.id);
-// // function assignValue(itemId) {
-//   const found = projects.find((element) => element.id === itemId);
-//   // const a = document.getElementById('live');
 
-//   console.log(found);
-//   document.getElementById('name').innerHTML = found.name;
-//   document.getElementById('technology1').innerHTML = found.technologies;
-//   document.getElementById('technology2').innerHTML = found.technologiess;
-//   document.getElementById('technology3').innerHTML = found.technologiesss;
-//   document.getElementById('description').innerHTML = found.description;
-//   document.getElementById('image').src = found.featuredimage;
-//   document.getElementById('live').href = found.linktoliveserver;
-//   // document.getElementById('live').style.fontSize = '1px';
-//   document.getElementById('source').href = found.linktosource;
-//   modalContainer.style.display = 'block';
-// });
+const nodeList = document.querySelectorAll('.open-modal');
+nodeList.forEach((element) => element.addEventListener('click', (event) => {
+  console.log('eventid', event.target.id);
+  const found = projects.find((element) => element.id === event.target.id);
+  console.log('found', found);
+  console.log(found);
+  document.getElementById('name').innerHTML = found.name;
+  document.getElementById('technology1').innerHTML = found.technologies;
+  document.getElementById('technology2').innerHTML = found.technologiess;
+  document.getElementById('technology3').innerHTML = found.technologiesss;
+  document.getElementById('description').innerHTML = found.description;
+  document.getElementById('image').src = found.featuredimage;
+  document.getElementById('live').href = found.linktoliveserver;
+  document.getElementById('source').href = found.linktosource;
+  modalContainer.style.display = 'block';
+}));
 
 closeBtn.addEventListener('click', () => {
   modalContainer.style.display = 'none';

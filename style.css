@@ -733,6 +733,17 @@ margin-left: 25px;
   }
 
   /* modal styles */
+  .modal-headlineTitle {
+    font-family: "Poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-bottom: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
   .card-modal-child {
     display: flex;
     flex-direction: column;
