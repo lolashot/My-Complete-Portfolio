@@ -47,26 +47,28 @@ const projects = [
 
 const closeBtn = document.getElementById('close-btn');
 const modalContainer = document.getElementById('modal-container');
-const collection = document.getElementsByClassName("open-modal");
-collection.addEventListener('click', () => {
-
-function assignValue(itemId) {
-  const found = projects.find((element) => element.id === itemId);
-  // const a = document.getElementById('live');
-
-  console.log(found);
-  document.getElementById('name').innerHTML = found.name;
-  document.getElementById('technology1').innerHTML = found.technologies;
-  document.getElementById('technology2').innerHTML = found.technologiess;
-  document.getElementById('technology3').innerHTML = found.technologiesss;
-  document.getElementById('description').innerHTML = found.description;
-  document.getElementById('image').src = found.featuredimage;
-  document.getElementById('live').href = found.linktoliveserver;
-  // document.getElementById('live').style.fontSize = '1px';
-  document.getElementById('source').href = found.linktosource;
-  modalContainer.style.display = 'block';
-}
+const collection = document.getElementsByClassName('.open-modal');
+collection.addEventListener('click', (event) => {
+  console.log('eventid', event.target.id);
 });
+// collection.addEventListener('click', (event) => {
+//   return console.log('eventid', event.target.id);
+// // function assignValue(itemId) {
+//   const found = projects.find((element) => element.id === itemId);
+//   // const a = document.getElementById('live');
+
+//   console.log(found);
+//   document.getElementById('name').innerHTML = found.name;
+//   document.getElementById('technology1').innerHTML = found.technologies;
+//   document.getElementById('technology2').innerHTML = found.technologiess;
+//   document.getElementById('technology3').innerHTML = found.technologiesss;
+//   document.getElementById('description').innerHTML = found.description;
+//   document.getElementById('image').src = found.featuredimage;
+//   document.getElementById('live').href = found.linktoliveserver;
+//   // document.getElementById('live').style.fontSize = '1px';
+//   document.getElementById('source').href = found.linktosource;
+//   modalContainer.style.display = 'block';
+// });
 
 closeBtn.addEventListener('click', () => {
   modalContainer.style.display = 'none';
