@@ -1,0 +1,118 @@
+#modal {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  animation-name: animatemodal;
+  animation-duration: 0.4s;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+#close-btn {
+  cursor: pointer;
+  font-size: 3rem;
+  color: #f00;
+}
+
+#modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal-headers {
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-close-icon {
+  cursor: pointer;
+  width: 15px;
+  height: 12px;
+  margin-top: 3px;
+}
+
+.modal-skills {
+  margin-top: -8px;
+}
+
+.mobile-btn-parent {
+  padding: 20px;
+  width: 50%;
+  margin-right: 0;
+}
+
+/* .mobile-btn-parent a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+} */
+
+.desktop-modal-btn-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+@keyframes animatemodal {
+  from {
+    top: -300%;
+    opacity: 0;
+  }
+
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 375px) {
+  #modal {
+    width: 80%;
+    margin: auto;
+  }
+
+  .flex-modal-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .desktop-modal-btn {
+    width: 20%;
+  }
+
+  .mobile-btn-parent {
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    border: 0.1px solid #6070ff;
+    border-radius: 5px;
+    color: #6070ff;
+    background-color: #fff;
+    font-size: medium;
+  }
+
+  .mobile-btn-parent a {
+    text-decoration: none;
+  }
+
+  .modalicon1 {
+    width: 19px;
+    padding: 5px;
+  }
+}
