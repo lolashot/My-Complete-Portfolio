@@ -780,15 +780,15 @@ input {
     margin-top: -8px;
   }
 
- .flex-modal-button {
+  .flex-modal-button {
     display: flex;
     margin-left: -12px;
- }
+  }
 
- .modalicon1 {
+  .modalicon1 {
     margin-left: 10px;
     margin-bottom: -40px;
- }
+  }
 
   .headlineTitle {
     line-height: 1.8;
