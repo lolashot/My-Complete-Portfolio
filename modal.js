@@ -47,6 +47,9 @@ const projects = [
 
 const closeBtn = document.getElementById('close-btn');
 const modalContainer = document.getElementById('modal-container');
+const collection = document.getElementsByClassName("open-modal");
+collection.addEventListener('click', () => {
+
 function assignValue(itemId) {
   const found = projects.find((element) => element.id === itemId);
   // const a = document.getElementById('live');
@@ -63,6 +66,7 @@ function assignValue(itemId) {
   document.getElementById('source').href = found.linktosource;
   modalContainer.style.display = 'block';
 }
+});
 
 closeBtn.addEventListener('click', () => {
   modalContainer.style.display = 'none';
