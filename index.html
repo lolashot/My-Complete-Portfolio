@@ -582,8 +582,8 @@
                             <li><input class="card2 form-field" required placeholder="Alex Usifo" maxlength="30" type="text" name="name" ></li>
                             <li><input id="mobile_email" class="card2 form-field" required placeholder="ololadeshot@gmail.com" type="email" name="email" ></li>
                             <li><textarea class="card3" required maxlength="500" placeholder="write your message here..." name="message"></textarea></li>
+                            <p id="mobile_message" class="errormess"></p>
                             <li><button class="last form-field" type="submit">Get In Touch</button></li>
-                            <p id="mobile_message"></p>
                         </ul>
                         </form>
                     </div>
@@ -600,19 +600,17 @@
                 <form
                  method="POST" 
                  id="form-id"
-                 onsubmit="submitForm(event)"
                  >
                 <ul>
                     <li><input class="card2" required placeholder="Alex Usifo" maxlength="30" type="text" name="name" ></li>
                     <li><input id="desktop-email" class="card2" required placeholder="ololadeshot@gmail.com" type="email" name="email"></li>
                     <li><textarea id="msg" class="card3" required maxlength="500" placeholder="write your message here..." name="message"></textarea></li>
-                    <li><button class="last" type="submit" value="submit" >Get In Touch</button></li>
-                    <p id="message"></p>
+                    <li><button id="desktop-submit-btn" class="last" type="submit" value="submit" >Get In Touch</button></li>
+                    <p id="message" class="errormess"></p>
                 </ul>
               <div class="last-btn">
                 <div class="btn-parent">
                     <button class="desktop-btn" type="submit" value="submit" >Get in Touch</button>
-                    <p id="message"></p>
                 </div>
               </div>
                 
