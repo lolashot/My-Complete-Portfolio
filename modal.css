@@ -47,6 +47,11 @@
   margin-top: -8px;
 }
 
+.mobile-btn-parent a {
+  text-decoration: none;
+  padding: 4px;
+}
+
 @keyframes animatemodal {
   from {
     top: -300%;
